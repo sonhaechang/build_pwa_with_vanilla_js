@@ -1,4 +1,4 @@
-# 바닐라 자바스크립트로 PWA 구축하기
+# Vanilla js로 PWA 구축하기
 
 Python/Django로 생성한 웹 사이트를 PWA로 업데이트 하기 위한 실습  
 
