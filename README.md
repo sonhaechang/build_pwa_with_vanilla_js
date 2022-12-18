@@ -1,6 +1,6 @@
 # 바닐라 자바스크립트로 PWA 구축하기
 
-웹 사이트를 PWA로 업데이트 하기 위한 기초적인 PWA 만들기 실습  
+Python/Django로 생성한 웹 사이트를 PWA로 업데이트 하기 위한 실습  
 
 ### PWA란? (PWA, Progressive Web App)
 
