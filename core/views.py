@@ -11,4 +11,5 @@ def service_worker(request):
         'static': settings.STATIC_URL}, content_type='application/json')
 
 def manifest(request):
-    return render(request, 'core/manifest.json', content_type='application/json')
+    return render(request, 'core/manifest.json', {
+        'static': settings.STATIC_URL}, content_type='application/json')
