@@ -8,7 +8,7 @@ def index(request):
 
 def service_worker(request):
     return render(request, 'core/service_worker.js', {
-        'static': settings.STATIC_URL}, content_type='application/json')
+        'static': settings.STATIC_URL}, content_type='application/javascript')
 
 def manifest(request):
     return render(request, 'core/manifest.json', {
