@@ -1,13 +1,13 @@
 const staticAssets=[
     '/',
-    '/static/css/style.css',
-    '/static/js/index.js',
-    '/static/sounds/bubbles.mp3',
-    '/static/sounds/clay.mp3',
-    '/static/sounds/confetti.mp3',
-    '/static/sounds/glimmer.mp3',
-    '/static/sounds/moon.mp3',
-    '/static/sounds/ufo.mp3'
+    '{{ static }}css/style.css',
+    '{{ static }}js/index.js',
+    '{{ static }}sounds/bubbles.mp3',
+    '{{ static }}sounds/clay.mp3',
+    '{{ static }}sounds/confetti.mp3',
+    '{{ static }}sounds/glimmer.mp3',
+    '{{ static }}sounds/moon.mp3',
+    '{{ static }}sounds/ufo.mp3'
 ];
 
 self.addEventListener('install', async event=>{
